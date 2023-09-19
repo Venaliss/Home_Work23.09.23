@@ -51,7 +51,7 @@ namespace HomeWork_2
             bank.balance = 7854621;
             bank.Print();
             Console.ReadKey();
-            /**/
+            /*Домашнее задание 3.1 Тумаков 3 глава*/
             Console.WriteLine("\nДомашнее задание 3.1 Тумаков глава 3 \nСоздать перечислимый тип ВУЗ и структуру данных Работник и вывести данные на экран\n");
             VUZ vuz = (VUZ)1;
             Worker work;
