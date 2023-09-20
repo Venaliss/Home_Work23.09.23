@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
-
 namespace HomeWork_3
 {
     class Program
@@ -42,10 +38,8 @@ namespace HomeWork_3
             /*Задание 3*/
             Console.WriteLine("\n Задание 3\nВведите строку:\n");
             string s = Console.ReadLine();
-
             var chars = s.Select(c => char.IsUpper(c) ? char.ToLower(c) : char.ToUpper(c));
             var invertedCase = new string(chars.ToArray());
-
             Console.WriteLine($"Ваша строка: {invertedCase}");
             Console.ReadKey();
             /*Задание 4*/
@@ -68,16 +62,13 @@ namespace HomeWork_3
             Console.WriteLine("Задание 6 Воспроизвести разговор Гарри и Дневника Реддла");
             Console.ReadLine();
             Console.WriteLine("Как вас зовут?");
-            string magicer = Console.ReadLine();Console.WriteLine($"Здравствуйте, {magicer}");
-            Console.ReadLine();
-            Console.WriteLine("Нет");
+            string magicer = Console.ReadLine();Console.WriteLine($"Здравствуйте, {magicer}"); Console.ReadLine(); Console.WriteLine("Нет");
             Thread.Sleep(5000);
             Console.WriteLine("Но могу показать");
             Thread.Sleep(100);
-            Console.BackgroundColor = ConsoleColor.Green;
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.Clear();
-            Console.WriteLine("Волшебство!!!!");
+            Console.BackgroundColor = ConsoleColor.Green; Console.ForegroundColor = ConsoleColor.Red; Console.Clear();
+            Console.WriteLine("MAGIC");
+            Console.BackgroundColor = ConsoleColor.Black; Console.ForegroundColor = ConsoleColor.White; Console.Clear(); Console.WriteLine("");
             Console.ReadKey();
         }
 
